@@ -1,4 +1,4 @@
-## Project completed for Unternehmenssoftware module at HTW Berlin
+Project completed as university assignment at HTW Berlin in the module "Business Software"
 Group: Massimo Diego Marsiglia, Thi Thanh Hang Truong, Farhan Jalal
 
 # Trading Crypto
