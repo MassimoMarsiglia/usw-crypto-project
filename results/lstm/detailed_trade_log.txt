@@ -1,0 +1,2326 @@
+====================================================================================================
+DETAILED TRADE LOG - Multi-Asset LSTM Simulation
+====================================================================================================
+
+Starting Balance: $10,000.00
+Max Position per Asset: 40% = $4,000.00
+LSTM Sequence Length: 16 timesteps (4 hours)
+
+
+====================================================================================================
+TRADE #1 | Step 15 | BTCUSDT
+====================================================================================================
+Price: $105,032.28
+Position: +0 → +1
+
+OPENING POSITION:
+  Available cash: $6,000.00
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.037989
+  Entry price: $105,032.28
+
+ACCOUNT STATE:
+  Balance: $6,000.00
+  Equity: $9,990.02
+  Total fees paid: $19.95
+
+VALIDATION:
+  Cash: $2,000.00
+  Total positions: $8,001.67
+  Calculated equity: $10,001.67
+  Reported equity: $10,001.67
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #2 | Step 15 | SOLUSDT
+====================================================================================================
+Price: $238.45
+Position: +0 → +1
+
+OPENING POSITION:
+  Available cash: $6,000.00
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 16.733172
+  Entry price: $238.45
+
+ACCOUNT STATE:
+  Balance: $2,000.00
+  Equity: $9,980.05
+  Total fees paid: $19.95
+
+VALIDATION:
+  Cash: $2,000.00
+  Total positions: $8,001.67
+  Calculated equity: $10,001.67
+  Reported equity: $10,001.67
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #3 | Step 440 | ETHUSDT
+====================================================================================================
+Price: $2,724.44
+Position: +0 → +1
+
+OPENING POSITION:
+  Available cash: $2,000.00
+  Position size: $1,980.00
+  Open fee: $4.94
+  Net invested: $1,975.06
+  Shares acquired: 0.724944
+  Entry price: $2,724.44
+
+ACCOUNT STATE:
+  Balance: $20.00
+  Equity: $9,264.73
+  Total fees paid: $24.89
+
+VALIDATION:
+  Cash: $20.00
+  Total positions: $9,273.53
+  Calculated equity: $9,293.53
+  Reported equity: $9,293.53
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #4 | Step 3346 | ETHUSDT
+====================================================================================================
+Price: $2,269.12
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.722819
+  Entry price: $0.00
+  Exit price:  $2,269.12
+  Position value: $1,644.99
+  Close fee: $4.11
+  Proceeds (after fee): $1,640.88
+  Realized P&L: $-330.07
+
+OPENING POSITION:
+  Available cash: $8,205.19
+  Position size: $1,644.27
+  Open fee: $4.10
+  Net invested: $1,640.17
+  Shares acquired: -0.722819
+  Entry price: $2,269.12
+
+ACCOUNT STATE:
+  Balance: $3,301.04
+  Equity: $7,597.74
+  Total fees paid: $41.25
+
+VALIDATION:
+  Cash: $6,560.92
+  Total positions: $1,033.98
+  Calculated equity: $7,594.90
+  Reported equity: $7,594.90
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #5 | Step 3346 | LTCUSDT
+====================================================================================================
+Price: $105.89
+Position: +0 → -1
+
+OPENING POSITION:
+  Available cash: $9,828.95
+  Position size: $3,268.03
+  Open fee: $8.15
+  Net invested: $3,259.88
+  Shares acquired: -30.784087
+  Entry price: $105.89
+
+ACCOUNT STATE:
+  Balance: $6,560.92
+  Equity: $7,597.74
+  Total fees paid: $41.25
+
+VALIDATION:
+  Cash: $6,560.92
+  Total positions: $1,033.98
+  Calculated equity: $7,594.90
+  Reported equity: $7,594.90
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #6 | Step 3908 | ETHUSDT
+====================================================================================================
+Price: $1,933.79
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 2.063319
+  Entry price: $0.00
+  Exit price:  $1,933.79
+  Position value: $1,397.78
+  Close fee: $3.49
+  Proceeds (after fee): $1,394.29
+  Realized P&L: $242.39
+
+OPENING POSITION:
+  Available cash: $7,955.21
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 2.063319
+  Entry price: $1,933.79
+
+ACCOUNT STATE:
+  Balance: $3,955.21
+  Equity: $10,397.78
+  Total fees paid: $54.72
+
+VALIDATION:
+  Cash: $3,955.21
+  Total positions: $6,423.31
+  Calculated equity: $10,378.51
+  Reported equity: $10,378.51
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #7 | Step 3913 | LTCUSDT
+====================================================================================================
+Price: $90.70
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 43.993637
+  Entry price: $0.00
+  Exit price:  $90.70
+  Position value: $2,791.98
+  Close fee: $6.98
+  Proceeds (after fee): $2,785.00
+  Realized P&L: $467.90
+
+OPENING POSITION:
+  Available cash: $6,740.21
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 43.993637
+  Entry price: $90.70
+
+ACCOUNT STATE:
+  Balance: $2,740.21
+  Equity: $15,933.48
+  Total fees paid: $71.67
+
+VALIDATION:
+  Cash: $2,740.21
+  Total positions: $13,154.36
+  Calculated equity: $15,894.56
+  Reported equity: $15,894.56
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #8 | Step 6994 | ETHUSDT
+====================================================================================================
+Price: $1,627.36
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -2.451844
+  Entry price: $0.00
+  Exit price:  $1,627.36
+  Position value: $3,357.75
+  Close fee: $8.39
+  Proceeds (after fee): $3,349.36
+  Realized P&L: $-632.27
+
+OPENING POSITION:
+  Available cash: $21,504.55
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -2.451844
+  Entry price: $1,627.36
+
+ACCOUNT STATE:
+  Balance: $10,079.59
+  Equity: $14,997.26
+  Total fees paid: $108.63
+
+VALIDATION:
+  Cash: $17,504.55
+  Total positions: $-2,506.79
+  Calculated equity: $14,997.76
+  Reported equity: $14,997.76
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #9 | Step 6994 | LTCUSDT
+====================================================================================================
+Price: $78.27
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -50.975295
+  Entry price: $0.00
+  Exit price:  $78.27
+  Position value: $3,443.54
+  Close fee: $8.61
+  Proceeds (after fee): $3,434.94
+  Realized P&L: $-546.48
+
+OPENING POSITION:
+  Available cash: $21,504.55
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -50.975295
+  Entry price: $78.27
+
+ACCOUNT STATE:
+  Balance: $17,504.55
+  Equity: $14,988.65
+  Total fees paid: $108.63
+
+VALIDATION:
+  Cash: $17,504.55
+  Total positions: $-2,506.79
+  Calculated equity: $14,997.76
+  Reported equity: $14,997.76
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #10 | Step 12262 | LTCUSDT
+====================================================================================================
+Price: $88.72
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 44.974370
+  Entry price: $0.00
+  Exit price:  $88.72
+  Position value: $4,522.41
+  Close fee: $11.31
+  Proceeds (after fee): $4,511.11
+  Realized P&L: $-532.39
+
+OPENING POSITION:
+  Available cash: $22,015.66
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 44.974370
+  Entry price: $88.72
+
+ACCOUNT STATE:
+  Balance: $18,015.66
+  Equity: $22,383.35
+  Total fees paid: $129.91
+
+VALIDATION:
+  Cash: $18,015.66
+  Total positions: $4,356.32
+  Calculated equity: $22,371.98
+  Reported equity: $22,371.98
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #11 | Step 12263 | ETHUSDT
+====================================================================================================
+Price: $2,510.92
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 1.589071
+  Entry price: $0.00
+  Exit price:  $2,510.92
+  Position value: $6,156.38
+  Close fee: $15.39
+  Proceeds (after fee): $6,140.99
+  Realized P&L: $-2,166.35
+
+OPENING POSITION:
+  Available cash: $24,156.65
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 1.589071
+  Entry price: $2,510.92
+
+ACCOUNT STATE:
+  Balance: $20,156.65
+  Equity: $34,659.37
+  Total fees paid: $155.28
+
+VALIDATION:
+  Cash: $20,156.65
+  Total positions: $14,479.97
+  Calculated equity: $34,636.62
+  Reported equity: $34,636.62
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #12 | Step 12382 | ETHUSDT
+====================================================================================================
+Price: $2,493.03
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -1.600474
+  Entry price: $0.00
+  Exit price:  $2,493.03
+  Position value: $3,961.60
+  Close fee: $9.90
+  Proceeds (after fee): $3,951.69
+  Realized P&L: $-28.43
+
+OPENING POSITION:
+  Available cash: $32,098.36
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -1.600474
+  Entry price: $2,493.03
+
+ACCOUNT STATE:
+  Balance: $28,098.36
+  Equity: $34,599.75
+  Total fees paid: $175.15
+
+VALIDATION:
+  Cash: $28,098.36
+  Total positions: $6,500.14
+  Calculated equity: $34,598.51
+  Reported equity: $34,598.51
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #13 | Step 12383 | LTCUSDT
+====================================================================================================
+Price: $87.61
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -45.545630
+  Entry price: $0.00
+  Exit price:  $87.61
+  Position value: $3,939.98
+  Close fee: $9.85
+  Proceeds (after fee): $3,930.13
+  Realized P&L: $-50.05
+
+OPENING POSITION:
+  Available cash: $40,018.52
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -45.545630
+  Entry price: $87.61
+
+ACCOUNT STATE:
+  Balance: $36,018.52
+  Equity: $34,588.66
+  Total fees paid: $194.98
+
+VALIDATION:
+  Cash: $36,018.52
+  Total positions: $-1,437.38
+  Calculated equity: $34,581.14
+  Reported equity: $34,581.14
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #14 | Step 12386 | SOLUSDT
+====================================================================================================
+Price: $151.52
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -26.333235
+  Entry price: $0.00
+  Exit price:  $151.52
+  Position value: $2,535.42
+  Close fee: $6.34
+  Proceeds (after fee): $2,529.08
+  Realized P&L: $-1,454.61
+
+OPENING POSITION:
+  Available cash: $46,537.62
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -26.333235
+  Entry price: $151.52
+
+ACCOUNT STATE:
+  Balance: $42,537.62
+  Equity: $34,564.49
+  Total fees paid: $211.29
+
+VALIDATION:
+  Cash: $42,537.62
+  Total positions: $-7,977.81
+  Calculated equity: $34,559.81
+  Reported equity: $34,559.81
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #15 | Step 12462 | BTCUSDT
+====================================================================================================
+Price: $110,174.63
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.036215
+  Entry price: $0.00
+  Exit price:  $110,174.63
+  Position value: $4,185.38
+  Close fee: $10.46
+  Proceeds (after fee): $4,174.91
+  Realized P&L: $195.35
+
+OPENING POSITION:
+  Available cash: $54,702.56
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.036215
+  Entry price: $110,174.63
+
+ACCOUNT STATE:
+  Balance: $50,702.56
+  Equity: $34,105.46
+  Total fees paid: $231.73
+
+VALIDATION:
+  Cash: $50,702.56
+  Total positions: $-16,553.18
+  Calculated equity: $34,149.38
+  Reported equity: $34,149.38
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #16 | Step 12467 | BTCUSDT
+====================================================================================================
+Price: $109,975.76
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.036281
+  Entry price: $0.00
+  Exit price:  $109,975.76
+  Position value: $3,982.82
+  Close fee: $9.96
+  Proceeds (after fee): $3,972.87
+  Realized P&L: $7.20
+
+OPENING POSITION:
+  Available cash: $54,675.43
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.036281
+  Entry price: $109,975.76
+
+ACCOUNT STATE:
+  Balance: $50,675.43
+  Equity: $41,991.25
+  Total fees paid: $251.66
+
+VALIDATION:
+  Cash: $50,675.43
+  Total positions: $-8,760.83
+  Calculated equity: $41,914.59
+  Reported equity: $41,914.59
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #17 | Step 12481 | SOLUSDT
+====================================================================================================
+Price: $159.17
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 25.067695
+  Entry price: $0.00
+  Exit price:  $159.17
+  Position value: $4,191.46
+  Close fee: $10.48
+  Proceeds (after fee): $4,180.98
+  Realized P&L: $-201.44
+
+OPENING POSITION:
+  Available cash: $54,856.41
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 25.067695
+  Entry price: $159.17
+
+ACCOUNT STATE:
+  Balance: $50,856.41
+  Equity: $50,391.98
+  Total fees paid: $272.12
+
+VALIDATION:
+  Cash: $50,856.41
+  Total positions: $-463.25
+  Calculated equity: $50,393.16
+  Reported equity: $50,393.16
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #18 | Step 14339 | ETHUSDT
+====================================================================================================
+Price: $2,500.76
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 1.595528
+  Entry price: $0.00
+  Exit price:  $2,500.76
+  Position value: $4,002.39
+  Close fee: $10.01
+  Proceeds (after fee): $3,992.39
+  Realized P&L: $-12.37
+
+OPENING POSITION:
+  Available cash: $54,826.32
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 1.595528
+  Entry price: $2,500.76
+
+ACCOUNT STATE:
+  Balance: $50,848.80
+  Equity: $58,598.79
+  Total fees paid: $312.04
+
+VALIDATION:
+  Cash: $50,826.32
+  Total positions: $15,724.59
+  Calculated equity: $66,550.91
+  Reported equity: $66,550.91
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #19 | Step 14339 | LTCUSDT
+====================================================================================================
+Price: $87.55
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 45.574503
+  Entry price: $0.00
+  Exit price:  $87.55
+  Position value: $3,987.50
+  Close fee: $9.97
+  Proceeds (after fee): $3,977.53
+  Realized P&L: $2.53
+
+OPENING POSITION:
+  Available cash: $54,826.32
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 45.574503
+  Entry price: $87.55
+
+ACCOUNT STATE:
+  Balance: $50,826.32
+  Equity: $66,553.84
+  Total fees paid: $312.04
+
+VALIDATION:
+  Cash: $50,826.32
+  Total positions: $15,724.59
+  Calculated equity: $66,550.91
+  Reported equity: $66,550.91
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #20 | Step 14386 | ETHUSDT
+====================================================================================================
+Price: $2,463.26
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -1.619818
+  Entry price: $0.00
+  Exit price:  $2,463.26
+  Position value: $3,930.19
+  Close fee: $9.83
+  Proceeds (after fee): $3,920.37
+  Realized P&L: $-59.83
+
+OPENING POSITION:
+  Available cash: $70,617.30
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -1.619818
+  Entry price: $2,463.26
+
+ACCOUNT STATE:
+  Balance: $58,736.72
+  Equity: $66,432.74
+  Total fees paid: $351.57
+
+VALIDATION:
+  Cash: $66,617.30
+  Total positions: $-156.05
+  Calculated equity: $66,461.26
+  Reported equity: $66,461.26
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #21 | Step 14386 | LTCUSDT
+====================================================================================================
+Price: $85.58
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -46.622762
+  Entry price: $0.00
+  Exit price:  $85.58
+  Position value: $3,900.31
+  Close fee: $9.75
+  Proceeds (after fee): $3,890.56
+  Realized P&L: $-89.71
+
+OPENING POSITION:
+  Available cash: $70,617.30
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -46.622762
+  Entry price: $85.58
+
+ACCOUNT STATE:
+  Balance: $66,617.30
+  Equity: $66,422.99
+  Total fees paid: $351.57
+
+VALIDATION:
+  Cash: $66,617.30
+  Total positions: $-156.05
+  Calculated equity: $66,461.26
+  Reported equity: $66,461.26
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #22 | Step 14503 | ETHUSDT
+====================================================================================================
+Price: $2,413.30
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 1.653348
+  Entry price: $0.00
+  Exit price:  $2,413.30
+  Position value: $3,909.11
+  Close fee: $9.77
+  Proceeds (after fee): $3,899.33
+  Realized P&L: $80.92
+
+OPENING POSITION:
+  Available cash: $70,393.81
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 1.653348
+  Entry price: $2,413.30
+
+ACCOUNT STATE:
+  Balance: $66,516.64
+  Equity: $74,142.65
+  Total fees paid: $391.01
+
+VALIDATION:
+  Cash: $66,393.81
+  Total positions: $15,464.34
+  Calculated equity: $81,858.15
+  Reported equity: $81,858.15
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #23 | Step 14503 | LTCUSDT
+====================================================================================================
+Price: $83.37
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 47.859901
+  Entry price: $0.00
+  Exit price:  $83.37
+  Position value: $3,886.89
+  Close fee: $9.72
+  Proceeds (after fee): $3,877.17
+  Realized P&L: $103.14
+
+OPENING POSITION:
+  Available cash: $70,393.81
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 47.859901
+  Entry price: $83.37
+
+ACCOUNT STATE:
+  Balance: $66,393.81
+  Equity: $81,896.73
+  Total fees paid: $391.01
+
+VALIDATION:
+  Cash: $66,393.81
+  Total positions: $15,464.34
+  Calculated equity: $81,858.15
+  Reported equity: $81,858.15
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #24 | Step 14634 | LTCUSDT
+====================================================================================================
+Price: $90.66
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -44.012078
+  Entry price: $0.00
+  Exit price:  $90.66
+  Position value: $4,338.86
+  Close fee: $10.85
+  Proceeds (after fee): $4,328.01
+  Realized P&L: $348.83
+
+OPENING POSITION:
+  Available cash: $78,711.84
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -44.012078
+  Entry price: $90.66
+
+ACCOUNT STATE:
+  Balance: $74,711.84
+  Equity: $82,881.18
+  Total fees paid: $411.83
+
+VALIDATION:
+  Cash: $74,711.84
+  Total positions: $8,141.60
+  Calculated equity: $82,853.44
+  Reported equity: $82,853.44
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #25 | Step 14657 | ETHUSDT
+====================================================================================================
+Price: $2,622.36
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -1.521537
+  Entry price: $0.00
+  Exit price:  $2,622.36
+  Position value: $4,335.68
+  Close fee: $10.84
+  Proceeds (after fee): $4,324.84
+  Realized P&L: $345.66
+
+OPENING POSITION:
+  Available cash: $87,026.71
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -1.521537
+  Entry price: $2,622.36
+
+ACCOUNT STATE:
+  Balance: $83,026.71
+  Equity: $82,881.53
+  Total fees paid: $432.65
+
+VALIDATION:
+  Cash: $83,026.71
+  Total positions: $-132.81
+  Calculated equity: $82,893.90
+  Reported equity: $82,893.90
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #26 | Step 15193 | ETHUSDT
+====================================================================================================
+Price: $2,610.75
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 1.528306
+  Entry price: $0.00
+  Exit price:  $2,610.75
+  Position value: $3,972.35
+  Close fee: $9.93
+  Proceeds (after fee): $3,962.42
+  Realized P&L: $17.67
+
+OPENING POSITION:
+  Available cash: $86,839.81
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 1.528306
+  Entry price: $2,610.75
+
+ACCOUNT STATE:
+  Balance: $82,989.13
+  Equity: $90,885.04
+  Total fees paid: $472.18
+
+VALIDATION:
+  Cash: $82,839.81
+  Total positions: $15,736.77
+  Calculated equity: $98,576.58
+  Reported equity: $98,576.58
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #27 | Step 15193 | LTCUSDT
+====================================================================================================
+Price: $87.71
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 45.490717
+  Entry price: $0.00
+  Exit price:  $87.71
+  Position value: $3,860.33
+  Close fee: $9.65
+  Proceeds (after fee): $3,850.68
+  Realized P&L: $129.69
+
+OPENING POSITION:
+  Available cash: $86,839.81
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 45.490717
+  Entry price: $87.71
+
+ACCOUNT STATE:
+  Balance: $82,839.81
+  Equity: $98,586.08
+  Total fees paid: $472.18
+
+VALIDATION:
+  Cash: $82,839.81
+  Total positions: $15,736.77
+  Calculated equity: $98,576.58
+  Reported equity: $98,576.58
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #28 | Step 15200 | BTCUSDT
+====================================================================================================
+Price: $108,885.05
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.036644
+  Entry price: $0.00
+  Exit price:  $108,885.05
+  Position value: $3,950.45
+  Close fee: $9.88
+  Proceeds (after fee): $3,940.58
+  Realized P&L: $-39.57
+
+OPENING POSITION:
+  Available cash: $118,555.54
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.036644
+  Entry price: $108,885.05
+
+ACCOUNT STATE:
+  Balance: $90,770.42
+  Equity: $98,625.05
+  Total fees paid: $551.57
+
+VALIDATION:
+  Cash: $114,555.54
+  Total positions: $-15,979.81
+  Calculated equity: $98,575.73
+  Reported equity: $98,575.73
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #29 | Step 15200 | ETHUSDT
+====================================================================================================
+Price: $2,618.24
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -1.523937
+  Entry price: $0.00
+  Exit price:  $2,618.24
+  Position value: $4,001.47
+  Close fee: $10.00
+  Proceeds (after fee): $3,991.46
+  Realized P&L: $11.44
+
+OPENING POSITION:
+  Available cash: $118,555.54
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -1.523937
+  Entry price: $2,618.24
+
+ACCOUNT STATE:
+  Balance: $98,751.90
+  Equity: $98,615.05
+  Total fees paid: $551.57
+
+VALIDATION:
+  Cash: $114,555.54
+  Total positions: $-15,979.81
+  Calculated equity: $98,575.73
+  Reported equity: $98,575.73
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #30 | Step 15200 | LTCUSDT
+====================================================================================================
+Price: $88.04
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -45.322651
+  Entry price: $0.00
+  Exit price:  $88.04
+  Position value: $4,004.82
+  Close fee: $10.01
+  Proceeds (after fee): $3,994.81
+  Realized P&L: $14.80
+
+OPENING POSITION:
+  Available cash: $118,555.54
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -45.322651
+  Entry price: $88.04
+
+ACCOUNT STATE:
+  Balance: $106,736.74
+  Equity: $98,605.04
+  Total fees paid: $551.57
+
+VALIDATION:
+  Cash: $114,555.54
+  Total positions: $-15,979.81
+  Calculated equity: $98,575.73
+  Reported equity: $98,575.73
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #31 | Step 15200 | SOLUSDT
+====================================================================================================
+Price: $153.12
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -26.058072
+  Entry price: $0.00
+  Exit price:  $153.12
+  Position value: $3,838.38
+  Close fee: $9.60
+  Proceeds (after fee): $3,828.78
+  Realized P&L: $-151.65
+
+OPENING POSITION:
+  Available cash: $118,555.54
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -26.058072
+  Entry price: $153.12
+
+ACCOUNT STATE:
+  Balance: $114,555.54
+  Equity: $98,595.44
+  Total fees paid: $551.57
+
+VALIDATION:
+  Cash: $114,555.54
+  Total positions: $-15,979.81
+  Calculated equity: $98,575.73
+  Reported equity: $98,575.73
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #32 | Step 15208 | ETHUSDT
+====================================================================================================
+Price: $2,661.25
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 1.499305
+  Entry price: $0.00
+  Exit price:  $2,661.25
+  Position value: $4,055.58
+  Close fee: $10.14
+  Proceeds (after fee): $4,045.44
+  Realized P&L: $-65.55
+
+OPENING POSITION:
+  Available cash: $118,620.18
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 1.499305
+  Entry price: $2,661.25
+
+ACCOUNT STATE:
+  Balance: $114,600.98
+  Equity: $106,545.21
+  Total fees paid: $611.73
+
+VALIDATION:
+  Cash: $114,620.18
+  Total positions: $7,977.58
+  Calculated equity: $122,597.76
+  Reported equity: $122,597.76
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #33 | Step 15208 | LTCUSDT
+====================================================================================================
+Price: $88.76
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 44.954988
+  Entry price: $0.00
+  Exit price:  $88.76
+  Position value: $4,022.66
+  Close fee: $10.06
+  Proceeds (after fee): $4,012.60
+  Realized P&L: $-32.63
+
+OPENING POSITION:
+  Available cash: $118,620.18
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 44.954988
+  Entry price: $88.76
+
+ACCOUNT STATE:
+  Balance: $114,613.58
+  Equity: $114,570.50
+  Total fees paid: $611.73
+
+VALIDATION:
+  Cash: $114,620.18
+  Total positions: $7,977.58
+  Calculated equity: $122,597.76
+  Reported equity: $122,597.76
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #34 | Step 15208 | SOLUSDT
+====================================================================================================
+Price: $154.14
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 25.885385
+  Entry price: $0.00
+  Exit price:  $154.14
+  Position value: $4,016.64
+  Close fee: $10.04
+  Proceeds (after fee): $4,006.60
+  Realized P&L: $-26.62
+
+OPENING POSITION:
+  Available cash: $118,620.18
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 25.885385
+  Entry price: $154.14
+
+ACCOUNT STATE:
+  Balance: $114,620.18
+  Equity: $122,583.77
+  Total fees paid: $611.73
+
+VALIDATION:
+  Cash: $114,620.18
+  Total positions: $7,977.58
+  Calculated equity: $122,597.76
+  Reported equity: $122,597.76
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #35 | Step 15216 | BTCUSDT
+====================================================================================================
+Price: $108,918.54
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.036633
+  Entry price: $0.00
+  Exit price:  $108,918.54
+  Position value: $3,991.25
+  Close fee: $9.98
+  Proceeds (after fee): $3,981.27
+  Realized P&L: $-1.23
+
+OPENING POSITION:
+  Available cash: $118,601.46
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.036633
+  Entry price: $108,918.54
+
+ACCOUNT STATE:
+  Balance: $114,601.46
+  Equity: $130,511.14
+  Total fees paid: $631.68
+
+VALIDATION:
+  Cash: $114,601.46
+  Total positions: $15,894.23
+  Calculated equity: $130,495.69
+  Reported equity: $130,495.69
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #36 | Step 15415 | ETHUSDT
+====================================================================================================
+Price: $2,968.38
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -1.344177
+  Entry price: $0.00
+  Exit price:  $2,968.38
+  Position value: $4,450.50
+  Close fee: $11.13
+  Proceeds (after fee): $4,439.38
+  Realized P&L: $460.48
+
+OPENING POSITION:
+  Available cash: $135,354.25
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -1.344177
+  Entry price: $2,968.38
+
+ACCOUNT STATE:
+  Balance: $123,030.86
+  Equity: $131,910.47
+  Total fees paid: $673.62
+
+VALIDATION:
+  Cash: $131,354.25
+  Total positions: $542.16
+  Calculated equity: $131,896.41
+  Reported equity: $131,896.41
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #37 | Step 15415 | LTCUSDT
+====================================================================================================
+Price: $96.64
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -41.289646
+  Entry price: $0.00
+  Exit price:  $96.64
+  Position value: $4,344.23
+  Close fee: $10.86
+  Proceeds (after fee): $4,333.36
+  Realized P&L: $354.20
+
+OPENING POSITION:
+  Available cash: $135,354.25
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -41.289646
+  Entry price: $96.64
+
+ACCOUNT STATE:
+  Balance: $131,354.25
+  Equity: $131,899.61
+  Total fees paid: $673.62
+
+VALIDATION:
+  Cash: $131,354.25
+  Total positions: $542.16
+  Calculated equity: $131,896.41
+  Reported equity: $131,896.41
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #38 | Step 17185 | ETHUSDT
+====================================================================================================
+Price: $3,780.93
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 1.055304
+  Entry price: $0.00
+  Exit price:  $3,780.93
+  Position value: $5,082.23
+  Close fee: $12.71
+  Proceeds (after fee): $5,069.53
+  Realized P&L: $-1,092.21
+
+OPENING POSITION:
+  Available cash: $136,892.67
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 1.055304
+  Entry price: $3,780.93
+
+ACCOUNT STATE:
+  Balance: $132,423.77
+  Equity: $140,892.61
+  Total fees paid: $717.47
+
+VALIDATION:
+  Cash: $132,892.67
+  Total positions: $16,955.87
+  Calculated equity: $149,848.54
+  Reported equity: $149,848.54
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #39 | Step 17185 | LTCUSDT
+====================================================================================================
+Price: $108.50
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 36.773068
+  Entry price: $0.00
+  Exit price:  $108.50
+  Position value: $4,480.09
+  Close fee: $11.20
+  Proceeds (after fee): $4,468.89
+  Realized P&L: $-490.07
+
+OPENING POSITION:
+  Available cash: $136,892.67
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 36.773068
+  Entry price: $108.50
+
+ACCOUNT STATE:
+  Balance: $132,892.67
+  Equity: $149,831.62
+  Total fees paid: $717.47
+
+VALIDATION:
+  Cash: $132,892.67
+  Total positions: $16,955.87
+  Calculated equity: $149,848.54
+  Reported equity: $149,848.54
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #40 | Step 17362 | ETHUSDT
+====================================================================================================
+Price: $3,674.40
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -1.085898
+  Entry price: $0.00
+  Exit price:  $3,674.40
+  Position value: $3,877.61
+  Close fee: $9.69
+  Proceeds (after fee): $3,867.91
+  Realized P&L: $-112.42
+
+OPENING POSITION:
+  Available cash: $152,603.15
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -1.085898
+  Entry price: $3,674.40
+
+ACCOUNT STATE:
+  Balance: $140,750.61
+  Equity: $149,244.45
+  Total fees paid: $756.80
+
+VALIDATION:
+  Cash: $148,603.15
+  Total positions: $617.66
+  Calculated equity: $149,220.82
+  Reported equity: $149,220.82
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #41 | Step 17362 | LTCUSDT
+====================================================================================================
+Price: $105.30
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -37.891975
+  Entry price: $0.00
+  Exit price:  $105.30
+  Position value: $3,872.20
+  Close fee: $9.68
+  Proceeds (after fee): $3,862.52
+  Realized P&L: $-117.82
+
+OPENING POSITION:
+  Available cash: $152,603.15
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -37.891975
+  Entry price: $105.30
+
+ACCOUNT STATE:
+  Balance: $148,603.15
+  Equity: $149,234.77
+  Total fees paid: $756.80
+
+VALIDATION:
+  Cash: $148,603.15
+  Total positions: $617.66
+  Calculated equity: $149,220.82
+  Reported equity: $149,220.82
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #42 | Step 18313 | ETHUSDT
+====================================================================================================
+Price: $4,302.60
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.927352
+  Entry price: $0.00
+  Exit price:  $4,302.60
+  Position value: $4,672.19
+  Close fee: $11.68
+  Proceeds (after fee): $4,660.51
+  Realized P&L: $-682.16
+
+OPENING POSITION:
+  Available cash: $153,955.05
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.927352
+  Entry price: $4,302.60
+
+ACCOUNT STATE:
+  Balance: $149,263.66
+  Equity: $157,804.13
+  Total fees paid: $800.19
+
+VALIDATION:
+  Cash: $149,955.05
+  Total positions: $17,258.76
+  Calculated equity: $167,213.81
+  Reported equity: $167,213.81
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #43 | Step 18313 | LTCUSDT
+====================================================================================================
+Price: $124.12
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 32.146511
+  Entry price: $0.00
+  Exit price:  $124.12
+  Position value: $4,703.15
+  Close fee: $11.76
+  Proceeds (after fee): $4,691.39
+  Realized P&L: $-713.13
+
+OPENING POSITION:
+  Available cash: $153,955.05
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 32.146511
+  Entry price: $124.12
+
+ACCOUNT STATE:
+  Balance: $149,955.05
+  Equity: $167,188.70
+  Total fees paid: $800.19
+
+VALIDATION:
+  Cash: $149,955.05
+  Total positions: $17,258.76
+  Calculated equity: $167,213.81
+  Reported equity: $167,213.81
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #44 | Step 18610 | ETHUSDT
+====================================================================================================
+Price: $4,726.33
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.844212
+  Entry price: $0.00
+  Exit price:  $4,726.33
+  Position value: $4,382.97
+  Close fee: $10.96
+  Proceeds (after fee): $4,372.01
+  Realized P&L: $392.95
+
+OPENING POSITION:
+  Available cash: $170,412.55
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.844212
+  Entry price: $4,726.33
+
+ACCOUNT STATE:
+  Balance: $158,317.09
+  Equity: $168,159.22
+  Total fees paid: $841.38
+
+VALIDATION:
+  Cash: $166,412.55
+  Total positions: $1,754.33
+  Calculated equity: $168,166.87
+  Reported equity: $168,166.87
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #45 | Step 18610 | LTCUSDT
+====================================================================================================
+Price: $128.03
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -31.164766
+  Entry price: $0.00
+  Exit price:  $128.03
+  Position value: $4,115.72
+  Close fee: $10.29
+  Proceeds (after fee): $4,105.43
+  Realized P&L: $125.69
+
+OPENING POSITION:
+  Available cash: $170,412.55
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -31.164766
+  Entry price: $128.03
+
+ACCOUNT STATE:
+  Balance: $166,412.55
+  Equity: $168,148.94
+  Total fees paid: $841.38
+
+VALIDATION:
+  Cash: $166,412.55
+  Total positions: $1,754.33
+  Calculated equity: $168,166.87
+  Reported equity: $168,166.87
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #46 | Step 19017 | ETHUSDT
+====================================================================================================
+Price: $4,297.96
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.928353
+  Entry price: $0.00
+  Exit price:  $4,297.96
+  Position value: $3,628.39
+  Close fee: $9.07
+  Proceeds (after fee): $3,619.32
+  Realized P&L: $361.63
+
+OPENING POSITION:
+  Available cash: $169,685.55
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.928353
+  Entry price: $4,297.96
+
+ACCOUNT STATE:
+  Balance: $166,031.87
+  Equity: $175,277.77
+  Total fees paid: $879.56
+
+VALIDATION:
+  Cash: $165,685.55
+  Total positions: $16,993.61
+  Calculated equity: $182,679.16
+  Reported equity: $182,679.16
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #47 | Step 19017 | LTCUSDT
+====================================================================================================
+Price: $117.53
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 33.948558
+  Entry price: $0.00
+  Exit price:  $117.53
+  Position value: $3,662.84
+  Close fee: $9.16
+  Proceeds (after fee): $3,653.68
+  Realized P&L: $327.18
+
+OPENING POSITION:
+  Available cash: $169,685.55
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 33.948558
+  Entry price: $117.53
+
+ACCOUNT STATE:
+  Balance: $165,685.55
+  Equity: $182,584.32
+  Total fees paid: $879.56
+
+VALIDATION:
+  Cash: $165,685.55
+  Total positions: $16,993.61
+  Calculated equity: $182,679.16
+  Reported equity: $182,679.16
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #48 | Step 19570 | LTCUSDT
+====================================================================================================
+Price: $119.95
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -33.264068
+  Entry price: $0.00
+  Exit price:  $119.95
+  Position value: $4,072.13
+  Close fee: $10.18
+  Proceeds (after fee): $4,061.95
+  Realized P&L: $82.10
+
+OPENING POSITION:
+  Available cash: $177,737.53
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -33.264068
+  Entry price: $119.95
+
+ACCOUNT STATE:
+  Balance: $173,737.53
+  Equity: $183,777.04
+  Total fees paid: $899.72
+
+VALIDATION:
+  Cash: $173,737.53
+  Total positions: $10,019.00
+  Calculated equity: $183,756.52
+  Reported equity: $183,756.52
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #49 | Step 19614 | ETHUSDT
+====================================================================================================
+Price: $4,795.38
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.832056
+  Entry price: $0.00
+  Exit price:  $4,795.38
+  Position value: $4,451.81
+  Close fee: $11.13
+  Proceeds (after fee): $4,440.68
+  Realized P&L: $461.78
+
+OPENING POSITION:
+  Available cash: $186,168.23
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.832056
+  Entry price: $4,795.38
+
+ACCOUNT STATE:
+  Balance: $182,168.23
+  Equity: $183,650.12
+  Total fees paid: $920.82
+
+VALIDATION:
+  Cash: $182,168.23
+  Total positions: $1,487.81
+  Calculated equity: $183,656.04
+  Reported equity: $183,656.04
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #50 | Step 19940 | ETHUSDT
+====================================================================================================
+Price: $4,583.36
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.870545
+  Entry price: $0.00
+  Exit price:  $4,583.36
+  Position value: $3,813.62
+  Close fee: $9.53
+  Proceeds (after fee): $3,804.08
+  Realized P&L: $176.41
+
+OPENING POSITION:
+  Available cash: $185,972.31
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.870545
+  Entry price: $4,583.36
+
+ACCOUNT STATE:
+  Balance: $181,972.31
+  Equity: $191,808.86
+  Total fees paid: $940.33
+
+VALIDATION:
+  Cash: $181,972.31
+  Total positions: $9,841.24
+  Calculated equity: $191,813.55
+  Reported equity: $191,813.55
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #51 | Step 19943 | LTCUSDT
+====================================================================================================
+Price: $113.38
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 35.190525
+  Entry price: $0.00
+  Exit price:  $113.38
+  Position value: $3,771.60
+  Close fee: $9.43
+  Proceeds (after fee): $3,762.17
+  Realized P&L: $218.43
+
+OPENING POSITION:
+  Available cash: $185,734.48
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 35.190525
+  Entry price: $113.38
+
+ACCOUNT STATE:
+  Balance: $181,734.48
+  Equity: $199,322.33
+  Total fees paid: $959.73
+
+VALIDATION:
+  Cash: $181,734.48
+  Total positions: $17,655.18
+  Calculated equity: $199,389.66
+  Reported equity: $199,389.66
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #52 | Step 20626 | LTCUSDT
+====================================================================================================
+Price: $111.03
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -35.935002
+  Entry price: $0.00
+  Exit price:  $111.03
+  Position value: $3,907.36
+  Close fee: $9.77
+  Proceeds (after fee): $3,897.59
+  Realized P&L: $-82.66
+
+OPENING POSITION:
+  Available cash: $193,622.09
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -35.935002
+  Entry price: $111.03
+
+ACCOUNT STATE:
+  Balance: $189,622.09
+  Equity: $198,896.88
+  Total fees paid: $979.48
+
+VALIDATION:
+  Cash: $189,622.09
+  Total positions: $9,296.24
+  Calculated equity: $198,918.33
+  Reported equity: $198,918.33
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #53 | Step 20724 | ETHUSDT
+====================================================================================================
+Price: $4,435.82
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.899500
+  Entry price: $0.00
+  Exit price:  $4,435.82
+  Position value: $3,861.59
+  Close fee: $9.65
+  Proceeds (after fee): $3,851.93
+  Realized P&L: $-128.44
+
+OPENING POSITION:
+  Available cash: $201,464.05
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.899500
+  Entry price: $4,435.82
+
+ACCOUNT STATE:
+  Balance: $197,464.05
+  Equity: $198,894.13
+  Total fees paid: $999.11
+
+VALIDATION:
+  Cash: $197,464.05
+  Total positions: $1,440.66
+  Calculated equity: $198,904.71
+  Reported equity: $198,904.71
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #54 | Step 20960 | ETHUSDT
+====================================================================================================
+Price: $4,314.09
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.924881
+  Entry price: $0.00
+  Exit price:  $4,314.09
+  Position value: $3,880.53
+  Close fee: $9.70
+  Proceeds (after fee): $3,870.83
+  Realized P&L: $109.50
+
+OPENING POSITION:
+  Available cash: $201,451.59
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.924881
+  Entry price: $4,314.09
+
+ACCOUNT STATE:
+  Balance: $197,334.88
+  Equity: $206,619.80
+  Total fees paid: $1,039.08
+
+VALIDATION:
+  Cash: $197,451.59
+  Total positions: $17,340.79
+  Calculated equity: $214,792.38
+  Reported equity: $214,792.38
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #55 | Step 20960 | LTCUSDT
+====================================================================================================
+Price: $114.85
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 34.742091
+  Entry price: $0.00
+  Exit price:  $114.85
+  Position value: $4,127.03
+  Close fee: $10.32
+  Proceeds (after fee): $4,116.71
+  Realized P&L: $-137.00
+
+OPENING POSITION:
+  Available cash: $201,451.59
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 34.742091
+  Entry price: $114.85
+
+ACCOUNT STATE:
+  Balance: $197,451.59
+  Equity: $214,853.56
+  Total fees paid: $1,039.08
+
+VALIDATION:
+  Cash: $197,451.59
+  Total positions: $17,340.79
+  Calculated equity: $214,792.38
+  Reported equity: $214,792.38
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #56 | Step 20961 | ETHUSDT
+====================================================================================================
+Price: $4,300.70
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.927761
+  Entry price: $0.00
+  Exit price:  $4,300.70
+  Position value: $3,977.64
+  Close fee: $9.94
+  Proceeds (after fee): $3,967.70
+  Realized P&L: $-12.38
+
+OPENING POSITION:
+  Available cash: $226,667.97
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.927761
+  Entry price: $4,300.70
+
+ACCOUNT STATE:
+  Balance: $205,409.31
+  Equity: $214,782.43
+  Total fees paid: $1,102.20
+
+VALIDATION:
+  Cash: $222,667.97
+  Total positions: $-7,906.98
+  Calculated equity: $214,760.99
+  Reported equity: $214,760.99
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #57 | Step 20961 | LTCUSDT
+====================================================================================================
+Price: $114.45
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -34.863974
+  Entry price: $0.00
+  Exit price:  $114.45
+  Position value: $3,976.08
+  Close fee: $9.94
+  Proceeds (after fee): $3,966.14
+  Realized P&L: $-13.95
+
+OPENING POSITION:
+  Available cash: $226,667.97
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -34.863974
+  Entry price: $114.45
+
+ACCOUNT STATE:
+  Balance: $213,365.47
+  Equity: $214,772.49
+  Total fees paid: $1,102.20
+
+VALIDATION:
+  Cash: $222,667.97
+  Total positions: $-7,906.98
+  Calculated equity: $214,760.99
+  Reported equity: $214,760.99
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #58 | Step 20961 | SOLUSDT
+====================================================================================================
+Price: $205.75
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -19.393059
+  Entry price: $0.00
+  Exit price:  $205.75
+  Position value: $5,325.79
+  Close fee: $13.31
+  Proceeds (after fee): $5,312.47
+  Realized P&L: $1,335.76
+
+OPENING POSITION:
+  Available cash: $226,667.97
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -19.393059
+  Entry price: $205.75
+
+ACCOUNT STATE:
+  Balance: $222,667.97
+  Equity: $214,759.18
+  Total fees paid: $1,102.20
+
+VALIDATION:
+  Cash: $222,667.97
+  Total positions: $-7,906.98
+  Calculated equity: $214,760.99
+  Reported equity: $214,760.99
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #59 | Step 20962 | ETHUSDT
+====================================================================================================
+Price: $4,293.89
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.929233
+  Entry price: $0.00
+  Exit price:  $4,293.89
+  Position value: $3,983.70
+  Close fee: $9.96
+  Proceeds (after fee): $3,973.74
+  Realized P&L: $6.32
+
+OPENING POSITION:
+  Available cash: $226,641.71
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.929233
+  Entry price: $4,293.89
+
+ACCOUNT STATE:
+  Balance: $222,641.71
+  Equity: $222,708.46
+  Total fees paid: $1,122.13
+
+VALIDATION:
+  Cash: $222,641.71
+  Total positions: $76.08
+  Calculated equity: $222,717.79
+  Reported equity: $222,717.79
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #60 | Step 20963 | BTCUSDT
+====================================================================================================
+Price: $110,817.50
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.036005
+  Entry price: $0.00
+  Exit price:  $110,817.50
+  Position value: $4,059.59
+  Close fee: $10.15
+  Proceeds (after fee): $4,049.44
+  Realized P&L: $69.56
+
+OPENING POSITION:
+  Available cash: $242,646.75
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.036005
+  Entry price: $110,817.50
+
+ACCOUNT STATE:
+  Balance: $230,681.18
+  Equity: $222,707.64
+  Total fees paid: $1,162.20
+
+VALIDATION:
+  Cash: $238,646.75
+  Total positions: $-15,975.93
+  Calculated equity: $222,670.82
+  Reported equity: $222,670.82
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #61 | Step 20963 | ETHUSDT
+====================================================================================================
+Price: $4,289.03
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -0.930286
+  Entry price: $0.00
+  Exit price:  $4,289.03
+  Position value: $3,985.51
+  Close fee: $9.96
+  Proceeds (after fee): $3,975.55
+  Realized P&L: $-4.51
+
+OPENING POSITION:
+  Available cash: $242,646.75
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -0.930286
+  Entry price: $4,289.03
+
+ACCOUNT STATE:
+  Balance: $238,646.75
+  Equity: $222,697.68
+  Total fees paid: $1,162.20
+
+VALIDATION:
+  Cash: $238,646.75
+  Total positions: $-15,975.93
+  Calculated equity: $222,670.82
+  Reported equity: $222,670.82
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #62 | Step 20972 | ETHUSDT
+====================================================================================================
+Price: $4,317.28
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.924198
+  Entry price: $0.00
+  Exit price:  $4,317.28
+  Position value: $4,016.31
+  Close fee: $10.04
+  Proceeds (after fee): $4,006.27
+  Realized P&L: $-26.28
+
+OPENING POSITION:
+  Available cash: $242,679.03
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.924198
+  Entry price: $4,317.28
+
+ACCOUNT STATE:
+  Balance: $238,653.02
+  Equity: $230,588.96
+  Total fees paid: $1,202.28
+
+VALIDATION:
+  Cash: $238,679.03
+  Total positions: $-30.71
+  Calculated equity: $238,648.32
+  Reported equity: $238,648.32
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #63 | Step 20972 | SOLUSDT
+====================================================================================================
+Price: $208.12
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 19.171659
+  Entry price: $0.00
+  Exit price:  $208.12
+  Position value: $4,036.10
+  Close fee: $10.09
+  Proceeds (after fee): $4,026.01
+  Realized P&L: $-46.08
+
+OPENING POSITION:
+  Available cash: $242,679.03
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 19.171659
+  Entry price: $208.12
+
+ACCOUNT STATE:
+  Balance: $238,679.03
+  Equity: $238,641.10
+  Total fees paid: $1,202.28
+
+VALIDATION:
+  Cash: $238,679.03
+  Total positions: $-30.71
+  Calculated equity: $238,648.32
+  Reported equity: $238,648.32
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #64 | Step 20973 | LTCUSDT
+====================================================================================================
+Price: $114.70
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 34.787982
+  Entry price: $0.00
+  Exit price:  $114.70
+  Position value: $3,998.74
+  Close fee: $10.00
+  Proceeds (after fee): $3,988.74
+  Realized P&L: $-8.72
+
+OPENING POSITION:
+  Available cash: $242,667.77
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 34.787982
+  Entry price: $114.70
+
+ACCOUNT STATE:
+  Balance: $238,667.77
+  Equity: $246,625.83
+  Total fees paid: $1,222.25
+
+VALIDATION:
+  Cash: $238,667.77
+  Total positions: $7,908.88
+  Calculated equity: $246,576.66
+  Reported equity: $246,576.66
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #65 | Step 20977 | BTCUSDT
+====================================================================================================
+Price: $110,945.55
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 0.035964
+  Entry price: $0.00
+  Exit price:  $110,945.55
+  Position value: $3,994.64
+  Close fee: $9.99
+  Proceeds (after fee): $3,984.65
+  Realized P&L: $-4.61
+
+OPENING POSITION:
+  Available cash: $242,652.42
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 0.035964
+  Entry price: $110,945.55
+
+ACCOUNT STATE:
+  Balance: $238,652.42
+  Equity: $254,536.81
+  Total fees paid: $1,242.21
+
+VALIDATION:
+  Cash: $238,652.42
+  Total positions: $15,885.41
+  Calculated equity: $254,537.83
+  Reported equity: $254,537.83
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #66 | Step 21200 | LTCUSDT
+====================================================================================================
+Price: $113.85
+Position: +1 → -1
+
+CLOSING POSITION:
+  Shares held: -35.046332
+  Entry price: $0.00
+  Exit price:  $113.85
+  Position value: $3,960.61
+  Close fee: $9.90
+  Proceeds (after fee): $3,950.71
+  Realized P&L: $-29.41
+
+OPENING POSITION:
+  Available cash: $250,593.16
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: -35.046332
+  Entry price: $113.85
+
+ACCOUNT STATE:
+  Balance: $246,593.16
+  Equity: $255,011.10
+  Total fees paid: $1,262.09
+
+VALIDATION:
+  Cash: $246,593.16
+  Total positions: $8,408.65
+  Calculated equity: $255,001.81
+  Reported equity: $255,001.81
+  Difference: $0.000000
+
+====================================================================================================
+TRADE #67 | Step 21201 | LTCUSDT
+====================================================================================================
+Price: $113.87
+Position: -1 → +1
+
+CLOSING POSITION:
+  Shares held: 35.040485
+  Entry price: $0.00
+  Exit price:  $113.87
+  Position value: $3,990.69
+  Close fee: $9.98
+  Proceeds (after fee): $3,980.71
+  Realized P&L: $-0.67
+
+OPENING POSITION:
+  Available cash: $250,573.87
+  Position size: $4,000.00
+  Open fee: $9.98
+  Net invested: $3,990.02
+  Shares acquired: 35.040485
+  Entry price: $113.87
+
+ACCOUNT STATE:
+  Balance: $246,573.87
+  Equity: $262,963.23
+  Total fees paid: $1,282.04
+
+VALIDATION:
+  Cash: $246,573.87
+  Total positions: $16,449.73
+  Calculated equity: $263,023.60
+  Reported equity: $263,023.60
+  Difference: $0.000000
+
+
+====================================================================================================
+SIMULATION COMPLETE
+====================================================================================================
+Final Equity: $246,573.87
+Total Return: +2365.74%
+Total Trades: 130
+Total Fees: $1,282.04

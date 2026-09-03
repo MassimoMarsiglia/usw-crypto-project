@@ -1,0 +1,18 @@
+# Problem Definition and Data Acquisition
+yfinance
+pandas
+pandas_market_calendars
+pyyaml
+pyarrow # for parquet files
+alpaca-py # for live trading later
+matplotlib
+mplfinance
+tqdm # progress bar
+seaborn
+python-binance
+alpha-vantage
+ta
+scikit-learn
+torch
+tensorboard
+numpy

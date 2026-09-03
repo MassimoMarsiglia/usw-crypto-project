@@ -1,0 +1,17 @@
+experiments/
+__pycache__/
+*env
+config.yml
+.venv/
+large_data
+keys.yaml
+split_data
+post_split_data
+models
+runs
+archive
+backtest.parquet.meta.json
+buffers
+.vscode/
+*.parquet
+

@@ -1,0 +1,144 @@
+# Setup venv
+Python3.12 -m venv .venv
+./.venv/Scripts/Activate.ps1
+
+# Install essential packages
+pip install -r .\requirements.txt : install packages listed in requirements file
+
+# Data Acquisition
+- create keys.yaml under Folder 'conf': save APCA_API_KEY and SECRET_KEY there 
+(can create our own api key in Alpaca website)
+    + some function we don't need this authentication but with authentication can help increase the rate limit
+- need to change params to fetch the data we want
+
+# Data Understanding
+- Strongest Positive Correlation
+    + represented by the highest numerical value closest to +1 and shown by the most intense color
+    + assets with strong positive correlation (0.85 to 0.95) are highly interdependent. If we buy one, we effectively get exposure to the other
+    + exp: BTC and ETH often driven by the same market sentiment
+
+- Strongest Negative Correlation
+    + represented by the lowest numerical value closest to -1 and is shown by the most intense color in the negative side of the color scale
+    + assets with strong negative correlation (-0.50  to -1.00) move in opposition
+    + this is extremely valuable for portfolio diversification and rish management. If one asset loses value, the other is likely to gain value 
+
+- Weakest Correlation 
+    + is the value closet to 0 and is shown by the most neutral color
+    + these assets have the least linear relationship
+    + a weak correlation (0.05 or -0.08) meaning one won't drag the other down in a market crash
+    
+# Features
+- Trend indicators: EMA(9), EMA(21), EMA(50), EMA(200), MACD(12,26,9), ADX(14)
+- Momentum indicators: RSI(14), StorchRSI, CCI(20), Momentum(10)
+- Volatility indicators: ATR(14), Bollinger Bands(20,2), True Range
+- Volume indicators: On-Balance Volume (OBV), Volume moving average
+- Market structure signals: % Change (return), High-Low range, Candle body ratio 
+- Returns: Return1, Return5 (1-bar and 5-bar percent change)
+- BTC-pair relative streng: exp. ETH/USDT and ETH/BTC
+    relative_strength = (ETH/BTC price normalized)
+
+** Timeframe meaning:
+15m -> short-term momentum 
+1h -> market structure 
+4h -> swing trend 
+1d -> macro direction 
+
+** Pipeline
+1. Target coins & available pairs
+
+- Target coins: ETH, USDT, BTC, LTC, SOL, XRP, TRX
+- Available pairs: all pairs except
+    + XRP/BTC and TRX/BTC (for BTC pairs)
+    + TRX/USDT (for USDT pairs)
+
+--> focus on pairs with enough data
+
+2. Base timeframes
+15m, 1h, 4h, 1d
+
+3. Feature list per pair and timeframe
+For each pair + timeframe we calculate:
+- Trend, Momentum, Volatility, Volume, Returns, Candle structure, relative strenght to BTC for altcoins like ETH/BTC (optional)
+
+4. Data structure / alignment
+- Each row = 1 timestamp for target coin (e.g BTC/USDT 15m)
+- Columns = all features for all relevant pairs + all timeframes. E.g:
+    ETHBTC_EMA_15m, SOLBTC_RSI14_1h,...
+- Merge all features so that each row is fully aligned on the base timeframe timestamp (eg 15m)
+- Missing data (from pairs or indicators) -> forward fill or drop depending on strategy
+
+5. Target variable (need to decide)
+- next_return_1bar (short-tearm)
+- next_return_5bar (slightly longer-term)
+- next_direction (up/down, classification)
+
+6. Next step after featuring
+- Split train/test and feed into ML model
+
+# Split dataset
+
+- We split the data based on timestamp, so:
+    Dataset timestamps: 2025-01-01 00:00 → 2025-12-05 23:45 (15-min intervals)
+
+- Split:
+
+Train: first 70% of timestamps (e.g., Jan → Oct)
+
+Validation: next 15% (Oct → Nov)
+
+Test: last 15% (Nov → Dec)
+
+- Meaning:
+
+Train (first 700 rows): model sees historical data to learn patterns
+
+Validation (next 150 rows): model checks if it generalizes to slightly newer unseen data
+
+Test (last 150 rows): simulate real future predictions, evaluate performance
+
+- detect bull and bear market
++ consider making time window for a specific market condition(bear market or bull market) -> macro trend 
+
+** NOTES:
+- need to consider the bare market and bull market 
+
+# Post split (normlize data and split into X y data)
+- Normalize per rolling windown
+
+# Model training
+- TRAIN_LOSS is the mean squared error (MSE) between your model’s predictions and the true values on the training set.
+
+- Smaller TRAIN_LOSS → predictions are closer to true values.
+
+
+# Version notes (commits): 
+1.Version: no scrolling window, no bear/bull market, full train data set normalized with standard_scaler fit() and transfrom()
+- 04_data_split(as csv dataset)
+- update post split (as parquet file) + rename to feature selection
+- model training example (feed forward, LSTM) best 0.1262
+
+2.Version: scrolling window, bear/bull market, SMA200, regime, normalized before splitting with Z-score scalling, but leakage (val_loss = 0.000), data normalized not fully ([-17,14])
+- update split data (include normalize and drop NaN) + post split
+- update drop inf values
+
+3.Version: scrolling window, no bear/bull market, normalized before splitting with z-score scalling, weird action (epoch 7=0.002 -> epoch 8 = 12.235), data not normalized probably ([-61,41])
+- change split data without consider bear and bull market (because of overfitting reason)
+
+------------------------------------------------
+- consider classification target 
+
+-----------------------------------------------
+Deployment-test (branch) 
+<Latest update on 16-12-2025>
+- Run 'main.py' under 05_post_split again (to create feature_columns)
+- Run the pre-loop once before running the main loop (to create buffer)
+- Make sure to buy USDT on alpaca account before running loop (as standard we only have 100,000 USD not USDT)
+    + Need to buy at least > 5100USDT to run the loop once
+- The commented version (buy and sell condition in the main loop)
+    + The trade is executed in a separate thread.
+    + Effect on the loop: The main loop does not wait for the order to complete. While the trade is being sent to Alpaca, the loop continues:
+        Updating buffers with new market data
+        Generating features
+        Running predictions again
+    --> can be considered so if the trading failed then the data still continue fetching without trading decision 
+- For longer loop: we need to buy more USDT (maybe we should buy at least 50,000USDT so we can test for longer)

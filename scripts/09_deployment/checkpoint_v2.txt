@@ -1,0 +1,156 @@
+- input_norm.weight
+- input_norm.bias
+- net.0.weight
+- net.0.bias
+- net.1.weight
+- net.1.bias
+- net.4.weight
+- net.4.bias
+- net.5.weight
+- net.5.bias
+- net.8.weight
+- net.8.bias
+- net.9.weight
+- net.9.bias
+- net.12.weight
+- net.12.bias
+Checkpoint input dim: torch.Size([512, 532])
+Checkpoint output dim: torch.Size([8, 128])
+Model input_dim: 532
+Model output_dim: 8
+[INFO] Loaded 532 feature columns for live prediction
+LIVE TRADING STARTED
+[UPDATE] BTC/USDT +1 candle(s) | Last=2026-01-02 17:45:00
+Memory Buffer for BTC/USDT is now 5000 rows.
+[DISK] Updated parquet files for BTC/USDT
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[UPDATE] ETH/USDT +1 candle(s) | Last=2026-01-02 17:45:00
+Memory Buffer for ETH/USDT is now 5000 rows.
+[DISK] Updated parquet files for ETH/USDT
+[UPDATE] LTC/USDT +1 candle(s) | Last=2026-01-02 17:45:00
+Memory Buffer for LTC/USDT is now 5000 rows.
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[DISK] Updated parquet files for LTC/USDT
+[UPDATE] SOL/USDT +1 candle(s) | Last=2026-01-02 17:45:00
+Memory Buffer for SOL/USDT is now 5000 rows.
+[DISK] Updated parquet files for SOL/USDT
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[UPDATE] ETH/BTC +1 candle(s) | Last=2026-01-02 17:45:00
+Memory Buffer for ETH/BTC is now 5000 rows.
+[DISK] Updated parquet files for ETH/BTC
+[UPDATE] LTC/BTC +1 candle(s) | Last=2026-01-02 17:45:00
+Memory Buffer for LTC/BTC is now 5000 rows.
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[DISK] Updated parquet files for LTC/BTC
+[WARN] No data returned for SOL/BTC.
+Memory Buffer for SOL/BTC is now 0 rows.
+[DISK] Updated parquet files for SOL/BTC
+[INFO] Removing SOL/BTC from this iteration (no data) | --------------------------------------------------
+[INFO] Processing 25 data blocks...
+[INFO] Master timeline set from BTC/USDT 15m (Length: 5000)
+[SKIP] SOL/BTC @ 15m: No data available.
+[SUCCESS] Feature matrix ready. Shape: (5150, 456)
+[ENTRY] Signal: 0.00404. Buying $394.40 of BTC
+[order] BUY $394.4 of BTC/USDT submitted.
+[STATUS] BTC Price: 90520.57 | Pred: 0.00404 | Pos: 0.0
+[UPDATE] BTC/USDT +1 candle(s) | Last=2026-01-02 18:00:00
+Memory Buffer for BTC/USDT is now 5000 rows.
+[DISK] Updated parquet files for BTC/USDT
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[UPDATE] ETH/USDT +1 candle(s) | Last=2026-01-02 18:00:00
+Memory Buffer for ETH/USDT is now 5000 rows.
+[DISK] Updated parquet files for ETH/USDT
+[UPDATE] LTC/USDT +1 candle(s) | Last=2026-01-02 18:00:00
+Memory Buffer for LTC/USDT is now 5000 rows.
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[DISK] Updated parquet files for LTC/USDT
+[UPDATE] SOL/USDT +1 candle(s) | Last=2026-01-02 18:00:00
+Memory Buffer for SOL/USDT is now 5000 rows.
+[DISK] Updated parquet files for SOL/USDT
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[NO NEW CANDLE] ETH/BTC | last=2026-01-02 17:45:00
+Memory Buffer for ETH/BTC is now 5000 rows.
+[DISK] Updated parquet files for ETH/BTC
+[UPDATE] LTC/BTC +1 candle(s) | Last=2026-01-02 18:00:00
+Memory Buffer for LTC/BTC is now 5000 rows.
+[DISK] Updated parquet files for LTC/BTC
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+<ipython-input-1-9727a2d7ccbf>:465: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  buffers[(symbol, tf_str)] = updated_15m.resample(rule).agg({
+[WARN] No data returned for SOL/BTC.
+Memory Buffer for SOL/BTC is now 0 rows.
+[DISK] Updated parquet files for SOL/BTC
+[INFO] Removing SOL/BTC from this iteration (no data) | --------------------------------------------------
+[INFO] Processing 25 data blocks...
+[INFO] Master timeline set from BTC/USDT 15m (Length: 5000)
+[SKIP] SOL/BTC @ 15m: No data available.
+[SUCCESS] Feature matrix ready. Shape: (5151, 456)
+[ENTRY] Signal: 0.00401. Buying $394.40 of BTC
+[order] BUY $394.4 of BTC/USDT submitted.
+[STATUS] BTC Price: 90505.23 | Pred: 0.00401 | Pos: 0.0
+
+----------------------------------------------------------------------------------------
+12 Jan 2025
+
+[INFO] Collecting prediction history... (1/20)
+[STATUS] BTC Price: 91543.18 | Pred: 0.00518 | Pos: 0.0
+
+[INFO] Collecting prediction history... (2/20)
+[STATUS] BTC Price: 91570.98 | Pred: 0.00507 | Pos: 0.0
+
+-----------------------------------------------------------------------------------------
+17 Jan 2025
+
+[SUCCESS] Experience buffer primed with 51 historical predictions.
+[LOG] Pred: 0.004921 | Mean: 0.004483 | Std: 0.000468 | Target entry: 0.004834 | Target exit: 0.004366
+[STATUS] BTC Price: 95416.81 | Pred: 0.00492 | Pos: 0.678979384
+
+[LOG] Pred: 0.004804 | Mean: 0.004469 | Std: 0.000467 | Target entry: 0.004819 | Target exit: 0.004353
+[STATUS] BTC Price: 95364.70 | Pred: 0.00480 | Pos: 0.678979384
+
+[LOG] Pred: 0.003696 | Mean: 0.004348 | Std: 0.000225 | Target entry: 0.004517 | Target exit: 0.004292                                                                                                                          
+[EXIT] Signal: 0.00370. Selling 0.678979384 BTC                                                                                                                                                                                 
+[TRADE] Executing sell order for 0.678979 units of BTC/USD                                                                                                                                                                      
+[DEBUG] Status: 422                                                                                                                                                                                                             
+[DEBUG] Response Body: {"code":42210000,"message":"notional value must be limited to 2 decimal places"}                                                                                                                         
+[ERROR] Order failed: 422 Client Error: Unprocessable Entity for url: https://paper-api.alpaca.markets/v2/orders                                                                                                                
+[TRADE] sell order for BTC/USD completed                                                                                                                                                                                        
+[STATUS] BTC Price: 95283.87 | Pred: 0.00370 | Pos: 0.678979384                                                                                                                                                                 
+[UPDATE] BTC/USDT +1 candle(s) | Last=2026-01-17 11:45:00        
+
+[LOG] Pred: 0.004585 | Mean: -0.464236 | Std: 0.683393 | Target entry: 0.048309 | Target exit: -0.635085
+[STATUS] BTC Price: 95435.78 | Pred: 0.00459 | Pos: 0.678979384

@@ -1,0 +1,13 @@
+{
+  "starting_balance": 10000.0,
+  "final_equity": 82.39514808639433,
+  "total_return_pct": -99.17604851913606,
+  "sharpe_ratio": -6.2715707526594455,
+  "max_drawdown": 1.9364037176195452,
+  "win_rate": 0.49142857142857144,
+  "num_trades": 77,
+  "total_fees": 1585.819498832638,
+  "fees_pct": 15.85819498832638,
+  "avg_fee_per_trade": 20.595058426397895,
+  "steps": 21251
+}

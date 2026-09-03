@@ -1,0 +1,54 @@
+X_train min/max: -163.73362857804636 948231.5599999999
+y_train min/max: -5.589350492649606 5.623922830686117
+Training on device: cpu
+(92630, 532) (92630, 8)
+
+==================================================
+Starting Training
+==================================================
+Epoch 1/100 [15.03s] - train_loss: 2.140474 - val_loss: 0.008090 - lr: 0.000100 - mae=0.029640 rmse=0.089977
+  → Saved best model (val_loss: 0.008090)
+Epoch 2/100 [17.84s] - train_loss: 1.935744 - val_loss: 0.008179 - lr: 0.000100 - mae=0.037889 rmse=0.090472
+Epoch 3/100 [16.05s] - train_loss: 1.906295 - val_loss: 0.007687 - lr: 0.000100 - mae=0.029398 rmse=0.087705
+  → Saved best model (val_loss: 0.007687)
+Epoch 4/100 [14.30s] - train_loss: 1.887369 - val_loss: 0.008009 - lr: 0.000100 - mae=0.037077 rmse=0.089522
+Epoch 5/100 [15.57s] - train_loss: 1.876885 - val_loss: 0.008930 - lr: 0.000100 - mae=0.044336 rmse=0.094530
+Epoch 6/100 [25.08s] - train_loss: 1.872544 - val_loss: 0.008050 - lr: 0.000100 - mae=0.034249 rmse=0.089751
+Epoch 7/100 [27.09s] - train_loss: 1.866395 - val_loss: 0.007818 - lr: 0.000100 - mae=0.034374 rmse=0.088449
+Epoch 8/100 [28.13s] - train_loss: 1.861137 - val_loss: 0.007095 - lr: 0.000100 - mae=0.023517 rmse=0.084264
+  → Saved best model (val_loss: 0.007095)
+Epoch 9/100 [29.06s] - train_loss: 1.860794 - val_loss: 0.007137 - lr: 0.000100 - mae=0.025365 rmse=0.084512
+Epoch 10/100 [14.62s] - train_loss: 1.858651 - val_loss: 0.007596 - lr: 0.000100 - mae=0.029623 rmse=0.087184
+Epoch 11/100 [15.44s] - train_loss: 1.854614 - val_loss: 0.007540 - lr: 0.000100 - mae=0.028014 rmse=0.086864
+Epoch 12/100 [13.73s] - train_loss: 1.852337 - val_loss: 0.007848 - lr: 0.000100 - mae=0.031729 rmse=0.088617
+Epoch 13/100 [14.09s] - train_loss: 1.849925 - val_loss: 0.007052 - lr: 0.000100 - mae=0.022846 rmse=0.084008
+  → Saved best model (val_loss: 0.007052)
+Epoch 14/100 [22.23s] - train_loss: 1.847136 - val_loss: 0.007486 - lr: 0.000100 - mae=0.026541 rmse=0.086556
+Epoch 15/100 [15.21s] - train_loss: 1.846791 - val_loss: 0.007213 - lr: 0.000100 - mae=0.027479 rmse=0.084964
+Epoch 16/100 [17.72s] - train_loss: 1.843502 - val_loss: 0.007225 - lr: 0.000100 - mae=0.024334 rmse=0.085034
+Epoch 17/100 [18.72s] - train_loss: 1.844466 - val_loss: 0.007074 - lr: 0.000100 - mae=0.023258 rmse=0.084138
+Epoch 18/100 [18.58s] - train_loss: 1.843769 - val_loss: 0.007277 - lr: 0.000100 - mae=0.026576 rmse=0.085336
+Epoch 19/100 [21.04s] - train_loss: 1.844442 - val_loss: 0.007320 - lr: 0.000050 - mae=0.026173 rmse=0.085592
+Epoch 20/100 [16.81s] - train_loss: 1.828844 - val_loss: 0.007118 - lr: 0.000050 - mae=0.023638 rmse=0.084401
+Epoch 21/100 [14.49s] - train_loss: 1.828680 - val_loss: 0.007326 - lr: 0.000050 - mae=0.025624 rmse=0.085624
+Epoch 22/100 [14.01s] - train_loss: 1.826860 - val_loss: 0.007230 - lr: 0.000050 - mae=0.024113 rmse=0.085064
+Epoch 23/100 [12.76s] - train_loss: 1.826578 - val_loss: 0.007213 - lr: 0.000050 - mae=0.024939 rmse=0.084960
+
+Early stopping triggered after 23 epochs (no improvement for 10 epochs)
+
+Training completed in 418.36s
+Best validation loss: 0.007052
+
+==================================================
+Training Complete!
+==================================================
+Best validation loss: 0.007052
+Total epochs: 23
+Total time: 418.36s
+
+==================================================
+Evaluating on Test Set
+==================================================
+Test Loss: 0.012046
+Test MAE: 0.025359
+Test RMSE: 0.109910

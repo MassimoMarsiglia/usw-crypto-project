@@ -1,0 +1,12 @@
+keys:
+  alphavantage: api-key-here
+
+data_source:
+  start_date: "20200101T0000"
+  end_date: "20250625T2359"
+
+alphavantage:
+  news:
+    tickers: ["COIN", "CRYPTO:SOL", "CRYPTO:BTC", "CRYPTO:ETH", "CRYPTO:XRP", "CRYPTO:DOGE", "CRYPTO:LTC", "BINANCE"]
+    sort: "LATEST"
+    limit: 1000

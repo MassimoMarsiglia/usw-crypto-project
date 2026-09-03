@@ -1,0 +1,181 @@
+- input_norm.weight
+- input_norm.bias
+- net.0.weight
+- net.0.bias
+- net.1.weight
+- net.1.bias
+- net.4.weight
+- net.4.bias
+- net.5.weight
+- net.5.bias
+- net.8.weight
+- net.8.bias
+- net.9.weight
+- net.9.bias
+- net.12.weight
+- net.12.bias
+Checkpoint input dim: torch.Size([512, 532])
+Checkpoint output dim: torch.Size([8, 128])
+Model input_dim: 532
+Model output_dim: 8
+[INFO] Loaded 532 feature columns for live prediction
+LIVE TRADING STARTED
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+<ipython-input-3-5668e3fe7df3>:616: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  pd.to_datetime(df_new.index.get_level_values(level))
+[INFO] Starting feature generation for 24 (symbol, tf) pairs
+[INFO] Generating features for BTC/USDT at 15m... df shape: (197, 7)
+[INFO] Features shape for BTC/USDT/15m: (197, 19)
+[INFO] Base index established from BTC/USDT/15m, length=197
+[INFO] Feature block appended. Total blocks: 1
+[INFO] Generating features for ETH/BTC at 15m... df shape: (203, 7)
+[INFO] Features shape for ETH/BTC/15m: (203, 19)
+[INFO] Feature block appended. Total blocks: 2
+[INFO] Generating features for ETH/USDT at 15m... df shape: (203, 7)
+[INFO] Features shape for ETH/USDT/15m: (203, 19)
+[INFO] Feature block appended. Total blocks: 3
+[INFO] Generating features for LTC/BTC at 15m... df shape: (201, 7)
+[INFO] Features shape for LTC/BTC/15m: (201, 19)
+[INFO] Feature block appended. Total blocks: 4
+[INFO] Generating features for LTC/USDT at 15m... df shape: (203, 7)
+[INFO] Features shape for LTC/USDT/15m: (203, 19)
+[INFO] Feature block appended. Total blocks: 5
+[INFO] Generating features for SOL/USDT at 15m... df shape: (203, 7)
+[INFO] Features shape for SOL/USDT/15m: (203, 19)
+[INFO] Feature block appended. Total blocks: 6
+[INFO] Generating features for BTC/USDT at 1d... df shape: (202, 7)
+[INFO] Features shape for BTC/USDT/1d: (202, 19)
+[INFO] Aligning BTC/USDT/1d features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 7
+[INFO] Generating features for BTC/USDT at 1h... df shape: (203, 7)
+[INFO] Features shape for BTC/USDT/1h: (203, 19)
+[INFO] Aligning BTC/USDT/1h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 8
+[INFO] Generating features for BTC/USDT at 4h... df shape: (203, 7)
+[INFO] Features shape for BTC/USDT/4h: (203, 19)
+[INFO] Aligning BTC/USDT/4h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 9
+[INFO] Generating features for ETH/BTC at 1d... df shape: (202, 7)
+[INFO] Features shape for ETH/BTC/1d: (202, 19)
+[INFO] Aligning ETH/BTC/1d features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 10
+[INFO] Generating features for ETH/BTC at 1h... df shape: (203, 7)
+[INFO] Features shape for ETH/BTC/1h: (203, 19)
+[INFO] Aligning ETH/BTC/1h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 11
+[INFO] Generating features for ETH/BTC at 4h... df shape: (203, 7)
+[INFO] Features shape for ETH/BTC/4h: (203, 19)
+[INFO] Aligning ETH/BTC/4h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 12
+[INFO] Generating features for ETH/USDT at 1d... df shape: (202, 7)
+[INFO] Features shape for ETH/USDT/1d: (202, 19)
+[INFO] Aligning ETH/USDT/1d features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 13
+[INFO] Generating features for ETH/USDT at 1h... df shape: (203, 7)
+[INFO] Features shape for ETH/USDT/1h: (203, 19)
+[INFO] Aligning ETH/USDT/1h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 14
+[INFO] Generating features for ETH/USDT at 4h... df shape: (203, 7)
+[INFO] Features shape for ETH/USDT/4h: (203, 19)
+[INFO] Aligning ETH/USDT/4h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 15
+[INFO] Generating features for LTC/BTC at 1d... df shape: (202, 7)
+[INFO] Features shape for LTC/BTC/1d: (202, 19)
+[INFO] Aligning LTC/BTC/1d features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 16
+[INFO] Generating features for LTC/BTC at 1h... df shape: (203, 7)
+[INFO] Features shape for LTC/BTC/1h: (203, 19)
+[INFO] Aligning LTC/BTC/1h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 17
+[INFO] Generating features for LTC/BTC at 4h... df shape: (203, 7)
+[INFO] Features shape for LTC/BTC/4h: (203, 19)
+[INFO] Aligning LTC/BTC/4h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 18
+[INFO] Generating features for LTC/USDT at 1d... df shape: (202, 7)
+[INFO] Features shape for LTC/USDT/1d: (202, 19)
+[INFO] Aligning LTC/USDT/1d features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 19
+[INFO] Generating features for LTC/USDT at 1h... df shape: (203, 7)
+[INFO] Features shape for LTC/USDT/1h: (203, 19)
+[INFO] Aligning LTC/USDT/1h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 20
+[INFO] Generating features for LTC/USDT at 4h... df shape: (203, 7)
+[INFO] Features shape for LTC/USDT/4h: (203, 19)
+[INFO] Aligning LTC/USDT/4h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 21
+[INFO] Generating features for SOL/USDT at 1d... df shape: (202, 7)
+[INFO] Features shape for SOL/USDT/1d: (202, 19)
+[INFO] Aligning SOL/USDT/1d features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 22
+[INFO] Generating features for SOL/USDT at 1h... df shape: (203, 7)
+[INFO] Features shape for SOL/USDT/1h: (203, 19)
+[INFO] Aligning SOL/USDT/1h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 23
+[INFO] Generating features for SOL/USDT at 4h... df shape: (203, 7)
+[INFO] Features shape for SOL/USDT/4h: (203, 19)
+[INFO] Aligning SOL/USDT/4h features to base_index (length=197)
+[INFO] Alignment done. Shape after reindex & loc: (197, 19)
+[INFO] Feature block appended. Total blocks: 24
+[INFO] Shape after concatenation: (203, 456)
+[INFO] Shape after filling NaNs: (203, 456)
+<ipython-input-3-5668e3fe7df3>:555: FutureWarning: DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  X = X.fillna(method="ffill").fillna(0)
+[INFO] Final shape after dropping NaNs: (203, 456)
+[WARN] Missing features: 76 columns
+[INFO] X_live shape: (1, 532)
+[LIVE] BTC/USDT 4h pred: 0.23911, Position: 0.0, Price: 86381.14
+[INFO] About to submit order if needed
+[TRADE] Executing buy order for 0.057883 units of BTC/USDT
+[order] BUY 0.057883 BTC/USDT: submitted id=681abcaf-686b-492c-8dc6-568f34414606
+[TRADE] buy order for BTC/USDT completed
+[INFO] Trading logic done, sleeping...
